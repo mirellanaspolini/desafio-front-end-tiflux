@@ -84,12 +84,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -104,69 +104,69 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+    display: block;
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
 }
 
 ol,
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+    quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+    content: "";
+    content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 header {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
 .menuUser {
-	display: flex;
-	align-items: center;
-	gap: 1rem;
-	font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
 }
 
 .menuUser div {
-	display: flex;
-	align-items: center;
-	gap: 0.5rem;
-	font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
 }
 
 .btnCard-Wrapper {
-	display: flex;
-	gap: 1.5rem;
-	margin-bottom: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .btnCard-Wrapper .btnCard {
-	text-align: left;
-	width: 25%;
-	height: auto;
+    text-align: left;
+    width: 25%;
+    height: auto;
 }
 
 .btnCard-Wrapper .btnCard svg:not([data-icon="loading"]) {
-	vertical-align: sub;
-	font-size: 2rem;
+    vertical-align: sub;
+    font-size: 2rem;
 }
